@@ -7,3 +7,4 @@ venv/
 
 # example/state_gap.py 写在当前目录的日志
 state_gap_*.log
+logs/

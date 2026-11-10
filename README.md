@@ -2,6 +2,8 @@
 
 给二开用的 Python SDK。需要 Python 3.12。这份目录里的扩展是按 3.12 编译的。
 
+`dobot.__version__` 是 Python 包版本。`dobot.cpp_sdk_version` 是这份扩展编译时链上的 C++ SDK 版本。增加函数是次版本；修改已有函数的参数或返回值是主版本。
+
 把本目录加入 `PYTHONPATH` 后：
 
 ```python
